@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primary">#599343</color>
+    <color name="primaryDark">#2a6517</color>
+    <color name="primaryLight">#89c470</color>
+    <color name="secondary">#333333</color>
+    <color name="secondaryDark">#0c0c0c</color>
+    <color name="grayDark">#333333</color>
+    <color name="gray">#666666</color>
+    <color name="grayLight">#CCCCCC</color>
+    <color name="grayLightest">#EEEEEE</color>
+    <color name="background">#FAFAFA</color>
+    <color name="status_bar_scrim">@color/system_ui_scrim_dark</color>
+    <color name="nav_bar_scrim">@color/status_bar_scrim</color>
+    <color name="system_ui_scrim_dark">#C3000000</color>
+    <color name="translucent">#80000000</color>
+    <color name="translucentDark">#C3000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

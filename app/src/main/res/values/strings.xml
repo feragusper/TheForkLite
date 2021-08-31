@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">The Fork Lite</string>
+    <string name="averagePrice">Average Price %1$s</string>
+    <string name="reviews">%1$d reviews</string>
+    <string name="ratingAndReviews"><![CDATA[RATINGS & REVIEWS]]></string>
+    <string name="basedOnReviews">based on %1$d reviews</string>
+    <string name="book_now">BOOK NOW</string>
+    <string name="view_all_the_reviews">VIEW ALL THE REVIEWS</string>
+    <string name="write_a_review">WRITE A REVIEW</string>
+    <string name="menu">MENU</string>
+</resources>
