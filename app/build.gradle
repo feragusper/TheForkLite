@@ -23,7 +23,7 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
         buildConfigField 'String', 'API_HOST', '\"http://api.lafourchette.com/\"'
-        buildConfigField 'String', 'API_KEY', properties['api.key'] ?: System.getenv("API_KEY")
+        buildConfigField 'String', 'API_KEY', properties['api.key']
     }
 
     buildTypes {
