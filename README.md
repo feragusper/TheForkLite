@@ -4,7 +4,7 @@ Android application that displays a detail of a certain restaurant, using the Th
 
 Architecture
 ------------
-It's based on Clean Architecture. Using a MVVM with Repository.
+It's based on Clean Architecture. Using a MVVM, Use Cases and Repositories.
 
 Libraries included
 -----------------
