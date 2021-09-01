@@ -4,7 +4,7 @@ Android application that displays a detail of a certain restaurant, using the Th
 
 Architecture
 ------------
-It's based on Clean Architecture. Using a MVVM with Repository, and without Interactors (Use Cases). They would be useless here, but it can make sense if an interaction between data from different repositories needs to be done in one single scenario.
+It's based on Clean Architecture. Using a MVVM with Repository.
 
 Libraries included
 -----------------
@@ -15,9 +15,14 @@ Libraries included
 - Hilt
 - Retrofit and OkHttp
 - Data Binding
-- Constraint
+- Constraint Layouts
 - Navigation Component
 - Glide
+- JUnit
+- Truth
+- Mockito
+- Espresso
+- Turbine
 
 CI
 --
@@ -33,6 +38,8 @@ Getting Started
 > :warning: **This project won't compile unless an API_KEY value is provided through local.properties or through env vars**
 
 In order to build it locally, add `api.key=\"YOUR_THE_FORK_API_KEY\"` to your local.properties
+
+Since this uses gradle 7, it requires java 11 to run.
 
 - Use `./gradlew assemble` to build it, or run it in Android Studio.
 - Use `./gradlew connectedAndroidTest` to run the tests on a connected emulator or device.
